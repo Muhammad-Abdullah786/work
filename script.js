@@ -29,6 +29,11 @@ span.innerHTML = "hello world"; // inside the span element write some text
 a.appendChild(span); // put the span into a which is div class "container"
 b.replaceWith(span); //  as you can see span is replaced with a div b which we make above
 
-
-
+// insertion method || insert adjecent html || insert adjecent text
+let divContainer = document.getElementsByClassName('container')[0]
+console.log("container" , divContainer);
+// divContainer.insertAdjacentHTML('beforebegin', '<div>this is beforebegin</div>')
+// divContainer.insertAdjacentHTML('beforeend', '<div>this is beforeend</div>')
+// divContainer.insertAdjacentHTML('afterbegin', '<div>this is afterbegin</div>')
+// divContainer.insertAdjacentHTML('afterend', '<div>this is afterend</div>')
 
