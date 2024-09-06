@@ -1,4 +1,3 @@
-import Container from ''
 const socialSvg = "../assets/cat.svg"
 const info = "../assets/sinfo.svg"
 const cat = "../assets/scat.svg"
