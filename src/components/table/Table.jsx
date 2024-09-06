@@ -83,7 +83,7 @@ const Table = () => {
                 />
               </div>
               <div className="col-span-4 flex items-center space-x-2">
-                <div className="relative w-12 h-12">
+                {/* <div className="relative w-12 h-12">
                   <img
                     src={row.pic}
                     alt="profile"
@@ -98,7 +98,24 @@ const Table = () => {
                       />
                     </div>
                   </div>
+                </div>  */}
+                <div className="relative w-12 h-12">
+                  <img
+                    src={row.pic}
+                    alt="profile"
+                    className="w-full h-full rounded-full"
+                  />
+                  <div className="absolute bottom-0 right-0 mb-0.5 mr-0.5 flex justify-center items-center">
+                    <div className="       w-6 h-6 rounded-full flex justify-center items-center cursor-pointer">
+                      <img
+                        src={row.tag}
+                        alt="tag"
+                        className="object-contain w-2/3"
+                      />
+                    </div>
+                  </div>
                 </div>
+
                 <span>{row.name}</span>
               </div>
               <div className="col-span-2">{row.followers}</div>
