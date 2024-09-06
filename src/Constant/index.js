@@ -1,16 +1,16 @@
-const socialSvg = "../../src/assets/cat.svg"
-const info = "../../src/assets/info.svg"
-const cat = "../../src/assets/cat.svg"
-const insta = "../../src/assets/insta.svg"
-const react = "../../src/assets/react.svg"
-const svg = "../../src/assets/svg.svg"
-const deleteSvg = "../../src/assets/Delete.svg"
-const update = "../../src/assets/update.svg"
-const audTag = "../../src/assets/aud-tag.svg"
-const groth = "../../src/assets/groth.svg"
-const fall = "../../src/assets/fall.svg"
+import Container from ''
+const socialSvg = "../assets/cat.svg"
+const info = "../assets/sinfo.svg"
+const cat = "../assets/scat.svg"
+const insta = "../assets/sinsta.svg"
+const react = "../assets/react.svg"
+const svg = "../assets/svg.svg"
+const deleteSvg = "../assets/Delete.svg"
+const update = "../assets/supdate.svg"
+const audTag = "../assets/saud-tag.svg"
+const groth = "../assets/groth.svg"
+const fall = "../assets/fall.svg"
 
-// C: \Users\abdul\OneDrive\Desktop\Code\dashboard
 export {
     socialSvg,
     info,
@@ -24,3 +24,5 @@ export {
     groth,
     fall,
 };
+
+
