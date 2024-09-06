@@ -1,21 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
-
-const growthSVG = "../../src/assets/groth.svg";
-const fallSVG = "../../src/assets/fall.svg";
-const audTag = "../../src/assets/aud-tag.svg";
+import { groth, fall, audTag } from "../../Constant/index";
 
 const boxes = [
   {
     audience: { aud: "Audience", tag: audTag },
     num: "1.2M",
     growth: {
-      svg: growthSVG,
+      svg: groth,
       value: "25%",
     },
     fall: {
-      svg: fallSVG,
+      svg: fall,
       value: "10%",
     },
   },
@@ -23,11 +20,11 @@ const boxes = [
     audience: { aud: "Audience", tag: audTag },
     num: "1.2M",
     growth: {
-      svg: growthSVG,
+      svg: groth,
       value: "5%",
     },
     fall: {
-      svg: fallSVG,
+      svg: fall,
       value: "0%",
     },
   },
@@ -35,11 +32,11 @@ const boxes = [
     audience: { aud: "Audience", tag: audTag },
     num: "1.2M",
     growth: {
-      svg: growthSVG,
+      svg: groth,
       value: "265%",
     },
     fall: {
-      svg: fallSVG,
+      svg: fall,
       value: "30%",
     },
   },
